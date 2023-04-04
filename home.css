@@ -1,0 +1,281 @@
+
+body {
+        background-image: url('https://www.cs.ucy.ac.cy/courses/EPL425/assignments/sunset.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+
+
+  div.someclass{
+        margin-top:5%;
+       }
+       
+   .title{
+    position: center;
+    text-align: center;
+    color: white;
+    font-style:normal;
+    font-weight: lighter;
+    font-family: Arial;
+    text-shadow: 2px 2px 4px #000000;
+
+   }
+
+   * {border: 0 !important; }
+
+  .container {
+   
+    position:flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #f8f9fa;
+    padding: 50px 30px 50px 30px;
+    
+    margin: relative;
+   
+    margin-bottom: 10px;
+    background: rgb(60, 60, 60);
+    background: rgba(248, 248, 248, 0.4);
+   
+  }
+  
+.row{
+  color: black;
+  font-style:normal;
+  font-family: Arial;
+  clear: both;
+  display: inline-block;
+   
+}
+
+
+span.redstar{
+  color: red;
+}
+
+.three_buttons{
+padding-top:30px;
+
+}
+
+
+
+#adress_input{
+  display:block;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+
+#region_input{
+ margin-top:10px;
+ margin-bottom:10px;
+}
+
+#city_selector{
+  margin-top:10px;
+}
+
+#degree_id_label{
+  margin-bottom:10px;
+}
+
+#Celcious_label{
+  margin-right:10px;
+}
+
+
+
+#search_button{
+  margin-right:10px;
+  margin-top: 30px;
+  height:fit-content;
+  width: fit-content;
+}
+
+#forbiden_button{
+  margin-right:20px;
+  height:fit-content;
+  width: fit-content;
+}
+
+#server_button{
+  height:fit-content;
+  width: fit-content;
+}
+
+#rightnow{  
+  margin-left: 50px;
+  display: none;
+  margin-bottom: none;
+}
+
+        
+#twenty_four_hours{
+  display: none;
+
+}
+
+#myTabContent{
+  display: none;
+  background-color:white;
+  padding-left: 10px;
+  padding-right: relative;
+  padding-bottom: 1%;
+  margin-right: 50px;;
+  margin-left: 50px;
+  margin-bottom:10px;
+}
+
+
+
+
+#image_id{
+float:left;
+width: 100px;
+height: 100px;
+}
+
+#temp_min{
+  float:left;
+  color:blue;
+}
+
+#temp_max{
+  color:red;
+}
+
+#table_right_now{
+  float:left;
+  height:fit-content;
+  width: 40%;
+  
+  padding: 10px;
+  margin-left: none;
+}
+
+
+#thead_right_now{
+  float:left;
+
+  margin-right:none;
+  padding-right:none;
+}
+#map {
+  height: 400px;
+  width: 50%;
+  margin-bottom: 10%;
+  margin-right: 5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+ }
+
+#myModal{
+  position: center;
+}
+
+.image_model{
+
+ float:right;
+ margin-left: 10%;
+ padding-right: 40%;
+
+}
+
+.mod_dec{
+float:left;
+}
+
+.model_humidity{
+ padding-right: 15%;
+ margin-left: 10%;
+}
+
+.model_pressure{
+  padding-right: 10%;
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+  .container {
+   
+    position:center;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #f8f9fa;
+    padding: 50px 30px 50px 30px;
+    
+    margin-right:4%;
+    background: rgb(60, 60, 60);
+    background: rgba(248, 248, 248, 0.4);
+   
+  }
+
+
+
+
+  #myTabContent{
+    display: none;
+    background-color:white;
+  
+    padding-bottom: 1%;
+    margin-bottom:10px;
+    position: center center;
+    height:max-content;
+    width:content;
+    float:left;
+  }
+
+  #map {
+    float:left;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+   }
+
+   #table_right_now{
+    float:left;
+    height:fit-content;
+    width:fit-content;
+    height:40%;
+    margin-left: none;
+   
+  }
+
+  
+#myModal{
+  position: center;
+  width:100%;
+}
+
+#rightnow{  
+  display: none;
+  margin-bottom: none;
+  margin-left: none;
+}
+
+        
+#twenty_four_hours{
+  display: none;
+
+}
+
+#next_table{
+  width:40%;
+}
+
+
+  
+}
+ 
